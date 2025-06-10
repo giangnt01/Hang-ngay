@@ -32,10 +32,13 @@ jobs:
           echo "$NOTE" >> "$FILE"
 
       - name: Commit and push
+        env:
+          TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
           git config user.name "new user 1271"
           git config user.email "giangairdrop001@gmail.com"
           git add logs/
           git commit -m "🧠 Daily AI Note for $(date '+%Y-%m-%d')" || echo "Không có gì để commit"
           git pull --rebase
-          git push
+          git push https://giangnt01:${TOKEN}@github.com/giangnt01/Hang-ngay.git
+
