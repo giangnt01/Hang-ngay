@@ -1,0 +1,98 @@
+Tôi học cách sử dụng Git cherry-pick để lấy commit cụ thể.
+Tôi thử dùng Zsh và oh-my-zsh để cải thiện shell.
+Tôi cấu hình nginx reverse proxy cho backend.
+Tôi học cách viết middleware kiểm tra quyền admin.
+Tôi thử build ứng dụng React với TypeScript.
+Tôi học cách dùng Prisma làm ORM trong Node.js.
+Tôi config Redis để làm cache cho API.
+Tôi học cách tạo biểu đồ bằng Chart.js.
+Tôi viết script bash để tự backup database.
+Tôi tìm hiểu về event loop trong JavaScript.
+Tôi học khái niệm “debounce” và “throttle”.
+Tôi cài đặt Sentry để theo dõi lỗi runtime.
+Tôi học phân biệt monorepo và polyrepo.
+Tôi config Git hook bằng Husky.
+Tôi học khái niệm repository pattern trong Laravel.
+Tôi thử gọi API bằng Axios trong VueJS.
+Tôi dùng Postgres với Laravel bằng Docker.
+Tôi tạo command artisan để tự động hóa task.
+Tôi học cách viết custom hook trong React.
+Tôi tạo schema GraphQL đơn giản.
+Tôi dùng Tailwind để làm responsive navbar.
+Tôi đọc về XSS và cách phòng chống.
+Tôi học RESTful chuẩn từ tài liệu JSON:API.
+Tôi dùng Github API để lấy thông tin user.
+Tôi thử build landing page bằng HTML/CSS thuần.
+Tôi hiểu JWT hoạt động như thế nào trong auth.
+Tôi tìm hiểu session storage và local storage.
+Tôi viết test Laravel bằng PestPHP.
+Tôi config supervisor để restart queue worker Laravel.
+Tôi viết Dockerfile cho Node.js app nhỏ.
+Tôi học cách đọc log systemd bằng journalctl.
+Tôi dùng GitHub Actions để lint code tự động.
+Tôi học cơ bản về message broker như RabbitMQ.
+Tôi viết file `.env.example` để team dùng chung.
+Tôi tìm hiểu sự khác nhau giữa SQL và NoSQL.
+Tôi đọc tài liệu về Bcrypt và cách mã hóa mật khẩu.
+Tôi học dùng WebSocket tạo app realtime.
+Tôi thử tạo CLI tool bằng Node.js.
+Tôi viết custom blade directive trong Laravel.
+Tôi học git rebase tương tác để dọn commit.
+Tôi config nginx để redirect HTTP sang HTTPS.
+Tôi học viết unit test với Vitest.
+Tôi dùng Git worktree để làm song song nhiều feature.
+Tôi tạo collection test Postman cho team.
+Tôi học cách hoạt động của Laravel service container.
+Tôi thực hành viết regex đơn giản.
+Tôi tạo ứng dụng React dùng Context API.
+Tôi học cách xử lý lỗi 404 và 500 tùy chỉnh.
+Tôi cài đặt cron job gửi báo cáo định kỳ.
+Tôi tạo job queue Laravel gửi email nền.
+Tôi config domain VPS với Cloudflare.
+Tôi học cách viết API document chuẩn bằng OpenAPI.
+Tôi tạo ứng dụng web chỉ với AlpineJS.
+Tôi học về SSR (Server Side Rendering) trong Next.js.
+Tôi dùng ngrok để test API local với bên ngoài.
+Tôi tìm hiểu CSRF là gì và cách chống.
+Tôi tạo form xác thực với React Hook Form.
+Tôi học về CI/CD với GitHub Actions.
+Tôi viết script đọc JSON file bằng Python.
+Tôi config pipeline CI cho project backend.
+Tôi học cách dùng GitHub CLI trong terminal.
+Tôi config Prettier để định dạng code tự động.
+Tôi học cách tạo component tái sử dụng.
+Tôi dùng docker-compose để run app fullstack.
+Tôi học về design pattern Singleton.
+Tôi đọc log Laravel bằng Tinker nhanh chóng.
+Tôi học cách config CORS trong ExpressJS.
+Tôi thử tạo API bảo vệ bằng API key.
+Tôi dùng try/catch để xử lý lỗi rõ ràng hơn.
+Tôi học kiến thức cơ bản về OAuth2.
+Tôi tìm hiểu về progressive web app (PWA).
+Tôi config eslint để enforce coding style.
+Tôi học về lazy loading trong HTML/JS.
+Tôi viết hàm xử lý upload file lên S3.
+Tôi cài đặt MongoDB local để test NoSQL.
+Tôi học cách tối ưu query SQL trong Laravel.
+Tôi học thêm về GraphQL subscriptions.
+Tôi config nginx load balancing.
+Tôi viết README chuẩn cho project open-source.
+Tôi dùng Git bisect để tìm bug nhanh.
+Tôi học dùng JWT refresh token.
+Tôi học tổ chức folder project theo chuẩn clean architecture.
+Tôi config Tailwind theme để dùng màu thương hiệu.
+Tôi viết Docker Compose multi-container cho dev.
+Tôi học cách gọi API từ server Node.js.
+Tôi viết hàm validate dữ liệu client-side.
+Tôi dùng console.log hiệu quả hơn với màu sắc.
+Tôi tìm hiểu cách tối ưu Lighthouse score.
+Tôi học kiến thức cơ bản về DNS & CDN.
+Tôi test tốc độ load trang bằng web.dev.
+Tôi config queue delay cho Laravel job.
+Tôi học về HTTP/2 và lợi ích của nó.
+Tôi học phân biệt GET, POST, PUT, PATCH.
+Tôi dùng GitHub Secrets để lưu API key.
+Tôi học viết API versioning bằng route prefix.
+Tôi tạo form contact và gửi email từ Laravel.
+Tôi dùng jq để parse JSON từ dòng lệnh.
+Tôi tìm hiểu về caching chiến lược: stale-while-revalidate.
