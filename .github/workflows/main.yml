@@ -1,0 +1,42 @@
+name: Daily AI Note
+
+on:
+  schedule:
+    - cron: '15 15 * * *'  # 22h giờ Việt Nam
+    # - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-note:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate AI-like daily note
+        run: |
+          mkdir -p logs
+          NOW=$(date '+%Y-%m-%d')
+          FILE="logs/$NOW-note.md"
+      
+          # Đọc danh sách note từ file
+          mapfile -t NOTES < notes.txt
+      
+          RANDOM_INDEX=$((RANDOM % ${#NOTES[@]}))
+          NOTE=${NOTES[$RANDOM_INDEX]}
+      
+          echo "# Dev Note - $NOW" > "$FILE"
+          echo "" >> "$FILE"
+          echo "$NOTE" >> "$FILE"
+
+      - name: Commit and push
+        run: |
+          git config user.name "giang"
+          git config user.email "giangairdrop001@gmail.com"
+          git add logs/
+          git commit -m "🧠 Daily AI Note for $(date '+%Y-%m-%d')" || echo "Không có gì để commit"
+          git pull --rebase
+          git push
