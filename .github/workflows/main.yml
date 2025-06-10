@@ -2,8 +2,7 @@ name: Daily AI Note
 
 on:
   schedule:
-    - cron: '15 15 * * *'  # 22h giờ Việt Nam
-    # - cron: '*/5 * * * *'
+    - cron: '15 10 * * *'  
   workflow_dispatch:
 
 jobs:
@@ -34,7 +33,7 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "giang"
+          git config user.name "new user 1271"
           git config user.email "giangairdrop001@gmail.com"
           git add logs/
           git commit -m "🧠 Daily AI Note for $(date '+%Y-%m-%d')" || echo "Không có gì để commit"
